@@ -1,0 +1,105 @@
+
+
+    .slider {
+        background:linear-gradient(rgb(0 0 0 / 62%), rgb(93 93 93 / 98%)), url(../img/hero_bg_2_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        padding: 0vh 8vw;
+        color:white;
+        height:90vh;
+        display:grid;
+    place-items:center;
+    position: relative;
+
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .content h2{
+        font-size:4.5rem;
+        margin:2vh 0vw;
+    }
+    .content span{
+        color:var(--primary-color);
+    }
+    /* left and right arrow */ 
+
+    i#left {
+        right: 43vw;
+    position: absolute;
+    font-size: 36px;
+    background-color: #00000073;
+    border-radius: 50%;
+    padding: 1rem;
+    }
+    .arrows{
+        position: absolute;
+        font-size:33px;
+    }
+    i#right {
+        left: 43vw;
+        position: absolute;
+        font-size: 36px;
+        background-color: #00000073;
+        border-radius: 50%;
+        padding: 1rem;
+
+    }
+     .service-contact a{
+        text-decoration: none;
+        color:white;
+        background-color: var(--primary-color);
+        padding: 0.8rem;
+        display: flex;
+        align-items: center; 
+        justify-content: center; 
+    }
+    .service-contact{
+        display:grid;
+        grid-template-columns:4fr 4fr 6fr;
+        margin-top: 7vh;
+    }
+    .content p{
+        font-size: 1.2rem;
+    }
+    .contact a{
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    .contact{
+        margin-left: 1vw;
+    }
+    .service-contact a:hover{
+       color:black;
+       background-color: white;
+    }
+    .service-contact i {
+        font-size: 1.1rem;
+        margin-left: 0.5vw;
+    }
+    .sc .services{
+        border: 1px solid var(--primary-color);
+    }
+    .sc .services:hover{
+        border: 1px solid white;
+    }
+@media only screen and (max-width:650px) {
+    i#left{
+        right:30vw;
+    }
+    i#right{
+        left:30vw;
+    }
+    .service-contact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sc .services{
+        margin-bottom: 1rem;
+
+    }
+}
+
+

@@ -1,0 +1,81 @@
+.cta-main{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.cta-left{
+    display:grid;
+    grid-template-columns:30px 1fr;
+    
+}
+.bg-section{
+    padding: 15vh 10vw;
+    font-weight: bold;
+}
+.cta-img{
+    padding-top: 1rem;
+}
+.bg-section p{
+    color:var(--primary-color);
+}
+ .bg-section h2{
+    font-size: 2rem;
+    color:white;
+}
+.btn-cta{
+    background-color:var(--primary-color);
+    color:white;
+    border: 1px solid var(--primary-color);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1.7vh 2vw;
+}
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f00;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .play-icon {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+  }
+    
+    .bd{
+        align-content: center;
+        padding-left: 35rem;
+    }
+    .bg-section{
+    background-image: linear-gradient(rgb(000 000 000 / 65%), rgb(000 000 000 / 85%)),url('../img/video-1-bg.png');
+    background-size: cover; 
+    background-position: center; 
+    height: 300px;
+    }
+  
+
+  
+    
+
+
+   
+   
+   
+
+
+
+
+
+

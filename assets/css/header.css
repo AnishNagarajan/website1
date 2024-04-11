@@ -1,0 +1,99 @@
+.logo{
+    width: 100px;
+    height:100px;
+    margin-left: 35px;
+}
+.header{
+    background-color:var(--primary-color);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.navigation .navbar{ 
+    color:var(--primarytext-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position:relative;
+    margin: 0px 10px;
+}
+.navigation{
+    margin-right: 35px;
+}
+a.cta {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color:var(--primarytext-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.navigation .navbar:before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color:var(--primarytext-color );
+    transition: background-color .25s ease-in-out, width .36s cubic-bezier(.51,.5,.07,.99);
+    backface-visibility: hidden;
+}
+.navigation .navbar:hover:before{
+    width:100%;
+}
+
+/* Hamburger menu */
+.hamburger{
+    display:none;
+}
+.hb{
+    height:2px;
+    width:20px;
+    background-color:var(--primarytext-color);
+    margin: 3px 0px;
+}
+
+/* Mobile view */
+
+@media screen and (max-width:750px) {
+    .hamburger {
+        display: block;
+        margin-right: 15px;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+    .hide{
+        display:none;
+    }
+    .header{
+        display:block;
+    }
+    .navigation .navbar{
+        display:block;
+        padding: 10px 0px;
+        margin-left: 30px;
+       
+    }
+    .navigation{
+        padding: 0px 0px 40px 0px;
+    }
+    .showHamburger{
+        display: block;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .cta{
+        margin: 30px;
+    }
+}

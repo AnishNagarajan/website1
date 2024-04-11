@@ -1,0 +1,81 @@
+.team-section{
+    display:inline-block;
+    grid-template-columns: 1fr 1fr;
+}
+.ts-two{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.ts-three{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    padding: 0vh 4vh;
+    text-align: left;
+}
+.ts-para{
+color:var(--primary-color); 
+display:inline-block;
+text:bold;
+font-family: var(--fontfamily);
+}
+.imgst{
+    display:inline-block;
+}
+
+.h2st{
+text-align: center;
+text:bold;
+font-size:30px;
+}
+.btn-sec{
+    border-radius:50%;
+    
+}
+.sec-h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px;
+    }
+.main-sec{
+    padding: 6rem 7rem;
+  
+   
+    }
+.tm-sec{
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+    margin: 2vh 1vw;
+   
+}
+.h2st h2{
+    margin: 0vh 0vw 3vh 0vw;
+}
+.ts-three p {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+
+}
+.plusicon{
+    align-content: center;
+    text-align: end;
+}
+
+.plusicon .fa-plus {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+}
+.ts-para p{
+    font-size: 1.2rem;
+    font-weight:bolder;
+}
+.team-member:hover{
+opacity:0.5;
+}
+.team-member{
+    width:100%
+}
+.main-c{
+    text-align: center;
+}

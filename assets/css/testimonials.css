@@ -1,0 +1,70 @@
+.whole-testi{
+    background-color: black;
+  
+}
+.testimonial{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.testimonial p{
+    color:var(--primary-color);
+    padding-left: 0.3rem;
+}
+.whole-testi{
+    padding:10vh 3vw;
+}
+.img-test{
+    text-align: end;
+    align-content: center;
+}
+.h2-test{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 1rem;
+}
+.testimonial-main{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.test-para
+{
+    color: white;
+    
+}
+.testi-name{
+    margin-left:0.5rem;
+}
+.testimonial-sub{
+    display:grid;
+    grid-template-columns:1fr 3fr;
+
+}
+.h3-testi{
+    color:white;
+    margin: 0px;
+}
+.testi-para{
+  color:#616B79;
+  margin: 0px;
+  padding: 0px;
+
+}
+.testimonial-sub .fa-star{
+    color:var(--primary-color);
+}
+.box-testi{
+    background: #1D212D;
+    margin: 1rem;
+    padding: 2rem;
+}
+.testi-timg{
+    align-content: center;
+    text-align: center;
+}
+.icon-testi{
+    padding: 0.5rem 0rem;
+}
+
