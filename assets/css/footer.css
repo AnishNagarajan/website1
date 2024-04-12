@@ -140,4 +140,7 @@ color:var(--primary-color);
     .gallery{
       margin-left:4rem;
     }
+    .footer-main2{
+      padding: 2rem 0rem;
+    }
   }
