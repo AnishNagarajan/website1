@@ -134,4 +134,10 @@ color:var(--primary-color);
       
     grid-template-columns: 1fr;
     }
+    .footer-item{
+      padding-left:3rem;
+    }
+    .gallery{
+      margin-left:4rem;
+    }
   }
