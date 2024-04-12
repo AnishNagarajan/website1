@@ -50,12 +50,11 @@
     font-weight: 600;
 }
 @media only screen and (max-width: 800px) {
-    .imgaboutus{
-        padding:0rem;
+    .diffimg{
+        width: 350px;
+        height: auto;
+    }
 }
 
-.aboutus{
-    padding:1rem 0rem;
-    grid-template-columns: 1fr;
-}
+
 }
