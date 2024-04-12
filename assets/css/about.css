@@ -49,3 +49,9 @@
     color:var(--primary-color);
     font-weight: 600;
 }
+@media only screen and (max-width: 800px) {
+    .imgaboutus{
+        width: 100px; 
+        height: auto; 
+    }
+}
