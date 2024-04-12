@@ -101,7 +101,7 @@
 
     }
 }
-    /* @media only screen and (max-width: 1381px) {
+    @media only screen and (max-width: 1381px) {
     .content h2{
         font-size: 3.5rem;
         margin: 1vh 0vw;
@@ -118,7 +118,7 @@
     .content p{
         font-size:1.2rem;
     }
-} */
+}
 @media only screen and (max-width: 900px){
     .content{
         grid-template-columns: 1fr;
