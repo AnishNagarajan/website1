@@ -85,7 +85,7 @@
     .sc .services:hover{
         border: 1px solid white;
     }
-@media only screen and (max-width:650px) {
+@media only screen and (max-width: 650px) {
     i#left{
         right:30vw;
     }
@@ -99,6 +99,21 @@
     .sc .services{
         margin-bottom: 1rem;
 
+    }
+}
+    @media only screen and (max-width: 1381px) {
+    .content h2{
+        font-size: 1.5rem;
+        margin: 1vh 0vw;
+    }
+}
+@media only screen and (max-width: 588px) {
+    .content h2{
+        font-size: 1rem;
+        margin: 1vh 0vw;
+    }
+    .content p{
+        font-size:1rem;
     }
 }
 
