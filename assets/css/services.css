@@ -95,4 +95,13 @@ font-size: 14px;
     background-overlay: #ffe4c41c;
     overlay: initial;
 }
+@media only screen and (max-width: 800px){
+
+.service-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+}
+
 
