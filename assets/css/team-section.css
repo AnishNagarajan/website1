@@ -83,4 +83,9 @@ opacity:0.5;
     .main-sec {
         padding: 4rem 4rem;
     }
+    
+.ts-two {
+    
+    grid-template-columns: 1fr;
+}
 }
