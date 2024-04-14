@@ -67,4 +67,21 @@
 .icon-testi{
     padding: 0.5rem 0rem;
 }
+@media only screen and (max-width :800px)
+{
+    .whole-testi {
+        padding: 10vh 0vw;
+    }
+    .testimonial-main {
+        
+        grid-template-columns: 1fr;
+}
+.testi-name {
+    margin-left: 1rem;
+}
+.h2-test{
+    font-size:40px;
+}
+}
+
 
