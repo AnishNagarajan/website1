@@ -81,7 +81,7 @@ opacity:0.5;
 }
 @media only screen and (max-width :800px){
     .main-sec {
-        padding: 4rem 4rem;
+        padding: 4rem 1rem;
     }
     
 .ts-two {
