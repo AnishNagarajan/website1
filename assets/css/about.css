@@ -58,6 +58,13 @@
     .aboutus-content{
         padding:0;
     }
+    .features {
+        
+        grid-template-columns: 1fr;
+        }
+        .diffimg{
+            width:100%
+        }
 }
 
 
