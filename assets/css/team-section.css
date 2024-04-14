@@ -79,3 +79,8 @@ opacity:0.5;
 .main-c{
     text-align: center;
 }
+@media only screen and (max-width :800px){
+    .main-sec {
+        padding: 4rem 4rem;
+    }
+}
