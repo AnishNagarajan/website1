@@ -55,6 +55,10 @@
         
     grid-template-columns: 1fr;
     }
+    .aboutus-content{
+        padding:0;
+    }
 }
+
 
 
