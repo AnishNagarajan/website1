@@ -147,4 +147,8 @@ color:var(--primary-color);
     .footer-main2{
       padding: 2rem 0rem;
     }
+    .iconn-footer{
+      padding: 2rem;
+      margin: 2rem;
+    }
   }
