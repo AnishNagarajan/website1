@@ -124,9 +124,12 @@ color:var(--primary-color);
     
     grid-template-columns: 2fr 1fr;
     }
-    .gallery{
-      margin-left: 1rem;
+    .icon-footer{
+      padding: 5rem;
     }
+    /* .gallery{
+      margin-left: 1rem;
+    } */
   }
   @media only screen and (max-width: 550px)
   {
