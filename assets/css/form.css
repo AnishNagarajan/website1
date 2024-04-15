@@ -236,13 +236,14 @@ color: slategray;
         height:75%
     }
     .sec-formm {
-        padding:1rem;
+        
         width: 100%;
+        padding:1rem 5rem;
     }
     .box-form{
-        padding:1rem;
-        margin:1rem;
-        width: 100%;
+       
+      width:100;
+        
     }
     .cls-h2 {
         font-size: 2rem;
@@ -257,6 +258,10 @@ color: slategray;
     .para-formmain{
         padding:2rem;
     }
+    .icon-fs {
+        width:118%;
+    }
+
 
 }
 
