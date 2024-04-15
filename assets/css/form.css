@@ -262,7 +262,9 @@ color: slategray;
         width:118%;
     }
 
-
+    .form-button{
+        width: 85%;
+    }
 }
 
 
