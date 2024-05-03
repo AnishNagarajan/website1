@@ -91,7 +91,7 @@
   grid-template-columns: 1fr 3fr 2fr;
   position: absolute;
   width: 100%;
-  bottom: -22vh;
+  bottom: -4vh;
 }
 .main2-formsec {
   display: grid;
