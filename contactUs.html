@@ -122,18 +122,7 @@
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            async function importHeaderFooter() {
-                const responseHeader = await fetch('header.html');
-                const responseFooter = await fetch('footer.html');
-                const headerHTML = await responseHeader.text();
-                const footerHTML = await responseFooter.text();
-                document.body.innerHTML = headerHTML + document.body.innerHTML + footerHTML;
-            }
-            importHeaderFooter();
-        });
-    </script>
+    <script src="./assets/js/headerfootermodule.js"></script>
 </body>
 
 </html>
