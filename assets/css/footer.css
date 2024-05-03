@@ -1,7 +1,6 @@
 .whole-footer {
   color: #000;
-  padding-top: 30vh;
-}
+  
 .footer-main1 {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
