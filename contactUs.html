@@ -124,18 +124,14 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            async function importHeader() {
-                const response = await fetch('header.html');
-                const headerHTML = await response.text();
-                document.body.innerHTML = headerHTML + document.body.innerHTML;
+            async function importHeaderFooter() {
+                const responseHeader = await fetch('header.html');
+                const responseFooter = await fetch('footer.html');
+                const headerHTML = await responseHeader.text();
+                const footerHTML = await responseFooter.text();
+                document.body.innerHTML = headerHTML + document.body.innerHTML + footerHTML;
             }
-            importHeader();
-            async function importFooter() {
-                const response = await fetch('footer.html');
-                const footerHTML = await response.text();
-                document.body.innerHTML = footerHTML + document.body.innerHTML;
-            }
-            importFooter();
+            importHeaderFooter();
         });
     </script>
 </body>
