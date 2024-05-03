@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="import" href="header.html">
+    <link rel="import" href="footer.html">
 </head>
 
 <body>
@@ -123,13 +124,18 @@
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=myMap"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            // Dynamically import the header module
             async function importHeader() {
-                const response = await fetch('header.html'); // Use a relative path
+                const response = await fetch('header.html');
                 const headerHTML = await response.text();
                 document.body.innerHTML = headerHTML + document.body.innerHTML;
             }
             importHeader();
+            async function importFooter() {
+                const response = await fetch('footer.html');
+                const footerHTML = await response.text();
+                document.body.innerHTML = footerHTML + document.body.innerHTML;
+            }
+            importFooter();
         });
     </script>
 </body>
