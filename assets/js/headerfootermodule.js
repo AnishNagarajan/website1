@@ -8,3 +8,8 @@ async function importHeaderFooter() {
 }
 importHeaderFooter();
 // });
+var ham = document.querySelector(".hamburger");
+var navigation = document.querySelector(".navigation");
+ham.addEventListener("click", function () {
+  navigation.classList.toggle("showHamburger");
+});
