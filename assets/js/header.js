@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function importHeaderFooter() {
   var ham = document.querySelector(".hamburger");
   var navigation = document.querySelector(".navigation");
   if (ham && navigation) {
@@ -10,4 +10,4 @@ document.addEventListener("DOMContentLoaded", function () {
       "Element with class '.hamburger' or '.navigation' not found."
     );
   }
-});
+}
